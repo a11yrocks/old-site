@@ -19,6 +19,7 @@
     "postcss-scss": "^0.1.7"
   },
   "dependencies": {
-    "media-queries": "^1.0.4"
+    "media-queries": "^1.0.4",
+    "normalize.css": "^4.1.1"
   }
 }
