@@ -13,7 +13,7 @@ gulp.task('css', () => {
     cssnext({ browsers: ['last 2 version'] }),
     nested,
     mqpacker,
-    cssnano()
+    cssnano({ autoprefixer: false })
   ]
   return gulp.src('assets/styles/main.css')
     .pipe(postcss(processors, { syntax: scss }))
