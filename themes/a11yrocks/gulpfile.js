@@ -10,7 +10,7 @@ const postcss = require('gulp-postcss')
 gulp.task('css', () => {
   var processors = [
     atImport,
-    cssnext({ browsers: ['last 1 version'] }),
+    cssnext({ browsers: ['last 2 version'] }),
     nested,
     mqpacker,
     cssnano()
