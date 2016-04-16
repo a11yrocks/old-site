@@ -17,7 +17,7 @@ gulp.task('css', () => {
   ]
   return gulp.src('source/css/main.css')
     .pipe(postcss(processors, { syntax: scss }))
-    .pipe(gulp.dest('build/css'))
+    .pipe(gulp.dest('source/build/css'))
 })
 
 gulp.task('default', ['css'])
