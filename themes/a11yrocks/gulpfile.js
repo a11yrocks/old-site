@@ -1,4 +1,5 @@
 const gulp = require('gulp')
+const lost = require('lost')
 const cssnano = require('cssnano')
 const mqpacker = require('css-mqpacker')
 const scss = require('postcss-scss')
@@ -11,6 +12,7 @@ gulp.task('css', () => {
   var processors = [
     atImport,
     cssnext({ browsers: ['last 2 version'] }),
+    lost,
     nested,
     mqpacker,
     cssnano({ autoprefixer: false })
