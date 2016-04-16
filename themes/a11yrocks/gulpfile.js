@@ -15,7 +15,7 @@ gulp.task('css', () => {
     mqpacker,
     cssnano({ autoprefixer: false })
   ]
-  return gulp.src('assets/styles/main.css')
+  return gulp.src('source/css/main.css')
     .pipe(postcss(processors, { syntax: scss }))
     .pipe(gulp.dest('build/css'))
 })
