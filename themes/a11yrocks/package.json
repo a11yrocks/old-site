@@ -16,10 +16,10 @@
     "postcss-cssnext": "^2.5.2",
     "postcss-import": "^8.1.0",
     "postcss-nested": "^1.0.0",
-    "postcss-scss": "^0.1.7"
+    "postcss-scss": "^0.1.7",
+    "sanitize.css": "^3.3.0"
   },
   "dependencies": {
-    "media-queries": "^1.0.4",
-    "normalize.css": "^4.1.1"
+    "media-queries": "^1.0.4"
   }
 }
