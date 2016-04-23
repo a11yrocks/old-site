@@ -3,24 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "npm run browsersync & npm run gulp & npm run watch",
     "gulp": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "watch 'npm run gulp' source/css/**/",
+    "browsersync": "browser-sync start --proxy localhost:4000 --files='source/build'"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.12.3",
     "css-mqpacker": "^4.0.1",
     "cssnano": "^3.5.2",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.1.0",
-    "lost": "^6.7.2",
+    "parallelshell": "^2.0.0",
     "postcss-cssnext": "^2.5.2",
     "postcss-import": "^8.1.0",
     "postcss-nested": "^1.0.0",
     "postcss-scss": "^0.1.7",
-    "sanitize.css": "^3.3.0"
+    "watch": "^0.17.1"
   },
   "dependencies": {
-    "media-queries": "^1.0.4"
+    "sanitize.css": "^3.3.0",
+    "lost": "^6.7.2"
   }
 }
