@@ -46,15 +46,15 @@
 
 .logo {
   lost-column: 1;
-  font-size: 1.85rem;
+  font-size: var(--textLargest);
   letter-spacing: -1px;
 
   @media (--medium-up) {
-    font-size: 1.45rem;
+    font-size: var(--textLarge);
     lost-column: 1/4;
   }
 
   @media (--large-up) {
-    font-size: 2rem;
+    font-size: var(--textLargest);
   }
 }

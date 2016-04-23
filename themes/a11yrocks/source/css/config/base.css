@@ -7,11 +7,11 @@
   --regular: 300;
   --bold: 700;
 
-  --textSmall: 14px;
-  --textNormal: 16px;
-  --textHighlight: 18px;
-  --textLarge: 24px;
-  --textLargest: 36px;
+  --textSmall: 0.875rem;
+  --textNormal: 1rem;
+  --textHighlight: 1.125rem;
+  --textLarge: 1.65rem;
+  --textLargest: 2.20rem;
 }
 
 @custom-media --medium-up (width >= 640px);
@@ -20,7 +20,7 @@
 @lost flexbox flex;
 
 body {
-  lost-utility: edit;
+  /*lost-utility: edit;*/
   color: var(--colorGrayDark);
   font-size: 16px;
   font-family: "Nunito", "sans-serif";
