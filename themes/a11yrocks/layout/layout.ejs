@@ -40,12 +40,10 @@
 </head>
 
 <body>
-  <main>
     <%- partial('_components/header', null, { cache: !config.relative_link }) %>
-
-    <%- body %>
-
+    <main class="site-content">
+      <%- body %>
+    </main>
     <%- partial('_components/footer', null, { cache: !config.relative_link }) %>
-  </main>
 </body>
 </html>

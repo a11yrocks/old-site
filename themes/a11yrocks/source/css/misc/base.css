@@ -1,5 +1,8 @@
 body {
   /*lost-utility: edit;*/
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   color: var(--colorGrayDark);
   font-size: 16px;
   font-family: "Nunito", "sans-serif";
@@ -53,4 +56,8 @@ strong {
 
 .container {
   lost-center: 940px;
+}
+
+.site-content {
+  flex: 1;
 }
