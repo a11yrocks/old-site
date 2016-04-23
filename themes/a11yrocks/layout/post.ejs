@@ -1,13 +1,5 @@
-<div class="row">
-  <a class="btn btn-default" href="/">Home</a>
-</div>
-
-<div class="row">
+<div class="container">
   <h1><%- page.title %></h1>
-
-  <div class="text-muted">
-    <%= date(page.date, config.date_format) %>
-  </div>
-
+  <%= date(page.date, config.date_format) %>
   <%- page.content %>
 </div>

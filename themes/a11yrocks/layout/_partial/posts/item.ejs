@@ -1,0 +1,19 @@
+<div class="container">
+  <article class="article" id="<%= post.layout %>-<%= post.slug %>">
+    <header class="article-header">
+      <p>Added in
+        <time class="article-date" datetime="<%= date_xml(post.date) %>">
+          <%= date(post.date, date_format="MMMM DD, YYYY") %>
+        </time>
+      </p>
+
+        <h1>
+          <a href="<%- url_for(post.path) %>">
+            <%= post.title %>
+          </a>
+        </h1>
+    </header>
+
+    <%- post.content %>
+  </article>
+</div>
