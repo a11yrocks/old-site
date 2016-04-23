@@ -36,6 +36,10 @@
       margin-right: 15px;
     }
 
+    &:hover {
+      color: var(--colorPrimary);
+    }
+
     @media (--large-up) {
       &:not(:last-child) {
         margin-right: 30px;
@@ -45,8 +49,9 @@
 }
 
 .logo {
-  lost-column: 1;
+  color: var(--colorPrimary);
   font-size: var(--textLargest);
+  lost-column: 1;
   letter-spacing: -1px;
 
   @media (--medium-up) {
