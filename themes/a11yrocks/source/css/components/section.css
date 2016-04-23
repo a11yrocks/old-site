@@ -1,0 +1,12 @@
+.section {
+  padding: 25px 20px;
+
+  @media (--large-up) {
+    padding: 40px 20px;
+  }
+
+  &--highlight {
+    background-color: var(--colorGrayLight);
+    color: var(--colorGray);
+  }
+}

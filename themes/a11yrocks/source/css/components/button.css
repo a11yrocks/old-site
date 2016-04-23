@@ -5,8 +5,12 @@
   display: inline-block;
   font-size: var(--textSmall);
   font-weight: var(--bold);
-  padding: 8px 15px;
+  padding: 8px 10px;
   text-align: center;
+
+  @media (--large-up) {
+    padding: 8px 15px;
+  }
 
   &--solid {
     background: var(--colorPrimary);

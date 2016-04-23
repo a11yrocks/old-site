@@ -4,4 +4,22 @@
   @media (--medium-up) {
     text-align: left;
   }
+
+  &__about {
+    lost-column: 1;
+
+    @media (--medium-up) {
+      lost-column: 2/3;
+    }
+  }
+
+  &__contribute {
+    lost-column: 1;
+
+    @media (--medium-up) {
+      margin-top: 45px;
+      text-align: right;
+      lost-column: 1/3;
+    }
+  }
 }

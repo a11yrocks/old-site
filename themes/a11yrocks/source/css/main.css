@@ -1,8 +1,6 @@
-@import 'media-queries';
 @import 'sanitize.css';
 @import 'config/base';
-
 @import 'components/button';
-
 @import 'components/header';
 @import 'components/footer';
+@import 'components/section';
