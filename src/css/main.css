@@ -1,1 +1,8 @@
 @import 'sanitize.css';
+@import 'misc/config';
+@import 'misc/base';
+@import 'components/button';
+@import 'components/page';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/section';
