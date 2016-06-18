@@ -1,0 +1,20 @@
+:root {
+  --colorGray: #777;
+  --colorGrayLight: #f9f9f9;
+  --colorGrayDark: #333;
+  --colorPrimary: #53a3ce;
+
+  --regular: 300;
+  --bold: 700;
+
+  --textSmall: 0.875rem;
+  --textNormal: 1rem;
+  --textHighlight: 1.125rem;
+  --textLarge: 1.65rem;
+  --textLargest: 2.20rem;
+}
+
+@custom-media --medium-up (width >= 640px);
+@custom-media --large-up (width >= 830px);
+
+@lost flexbox flex;
