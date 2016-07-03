@@ -2,7 +2,7 @@
   "name": "a11yrocks",
   "version": "1.0.0",
   "description": "A11Y Rocks",
-  "main": "gulpfile.js",
+  "main": "deploy.js",
   "scripts": {
     "start": "npm-run-all --parallel jekyll gulp browsersync",
     "gulp": "gulp",
