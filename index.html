@@ -9,7 +9,7 @@ layout: default
     <article class="article" id="post-{{ post.title | slugify }}">
       <header class="article-header">
         <p>Added in
-          <time class="article-date" datetime="{{ post.date | date_to_xmlschema }}">
+          <time class="article-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ post.date | date: "%b %-d, %Y" }}
           </time>
         </p>
