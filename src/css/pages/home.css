@@ -1,0 +1,14 @@
+.hero {
+  background: var(--colorGrayDark);
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 360px;
+
+  h1 {
+    color: inherit;
+  }
+}
