@@ -1,0 +1,11 @@
+- name: ally.js
+  link: http://allyjs.io/
+  description: "A JavaScript library simplifying certain accessibility features, functions and behaviors."
+
+- name: react-a11y
+  link: https://github.com/reactjs/react-a11y
+  description: "Identifies accessibility issues in your React.js elements"
+
+- name: react-autosuggest
+  link: https://github.com/moroshko/react-autosuggest
+  description: "WAI-ARIA compliant React autosuggest component"
