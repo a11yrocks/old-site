@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<section>
-  <header>
+<section class="container section">
+  <header class="page-header">
     <h1>Articles</h1>
     <p>Want to know more about Web Accessibility? <br /> Start learning from here!</p>
   </header>
 
-  <div class="articles-list">
+  <div class="articles-content">
     {% for article in site.data.articles %}
     <article>
-      <a class="article-link" href="{{ article.link }}">{{ article.title }}</a>
+      <a class="article-title" href="{{ article.link }}">{{ article.title }}</a>
     </article>
     {% endfor %}
   </div>

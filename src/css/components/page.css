@@ -34,8 +34,8 @@
 .article-title {
   display: block;
   color: var(--colorGrayDark);
-  font-size: var(--textHighlight);
-  font-weight: var(--bold);
+  font-size: 16px;
+  font-weight: 600;
   &:hover {
     color: var(--colorPrimary);
   }

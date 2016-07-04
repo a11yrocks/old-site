@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   color: var(--colorGrayDark);
   font-size: 16px;
-  font-family: "Nunito", "sans-serif";
+  font-family: 'Muli', sans-serif;
   font-weight: var(--regular);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
