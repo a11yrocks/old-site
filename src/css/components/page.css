@@ -25,7 +25,7 @@
 .page-title {}
 
 .articles-content {
-  margin-top: 70px;
+  margin: 40px 0 80px 0;
   @media (--medium-up) {
     column-count: 2;
     column-gap: 50px;
