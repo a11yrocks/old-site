@@ -9,6 +9,10 @@ layout: default
   </header>
 
   <div class="articles-list">
-
+    {% for article in site.data.articles %}
+    <article>
+      <a href="{{ article.link }}">{{ article.title }}</a>
+    </article>
+    {% endfor %}
   </div>
 </section>
