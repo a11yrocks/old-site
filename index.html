@@ -9,7 +9,7 @@ layout: default
     <p>Build for diversity.</p>
   </div>
 
-  {% for post in site.posts %}
+  <!-- {% for post in site.posts %}
   <div class="container">
     <article class="article" id="post-{{ post.title | slugify }}">
       <header class="article-header">
@@ -27,6 +27,31 @@ layout: default
       {{ post.excerpt }}
     </article>
   </div>
-  {% endfor %}
+  {% endfor %} -->
+
+  <div class="container">
+    <div class="home-guides">
+      <header>
+        <h1>Guides</h1>
+        <p>Want to know more about Web Accessibility? <br /> Start learning from here!</p>
+      </header>
+
+      <ul>
+        <li><a href="#">Introduction to Web Accessibility</a> - W3C</li>
+        <li><a href="#">Getting Started with Web Accessibility</a> - SitePoint</li>
+        <li><a href="#">The Web Accessibility Basics</a> - Marco Zehe</li>
+        <li><a href="#">The Accessibility Cheatsheet</a> - Bits of Code</li>
+      </ul>
+    </div>
+
+    <div class="home-utils">
+      <header>
+        <h1>Utils</h1>
+        <p>Want help developing an accessible website? <br /> We've got you covered.</p>
+      </header>
+
+      
+    </div>
+  </div>
 
 </div>
