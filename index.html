@@ -37,10 +37,9 @@ layout: default
       </header>
 
       <ul>
-        <li><a href="#">Introduction to Web Accessibility</a> - W3C</li>
-        <li><a href="#">Getting Started with Web Accessibility</a> - SitePoint</li>
-        <li><a href="#">The Web Accessibility Basics</a> - Marco Zehe</li>
-        <li><a href="#">The Accessibility Cheatsheet</a> - Bits of Code</li>
+        {% for guide in site.data.guides limit:4 %}
+        <li><a href="{{ guide.link }}">{{ guide.title }}</a> - {{ guide.author }}</li>
+        {% endfor %}
       </ul>
     </div>
 
@@ -50,7 +49,7 @@ layout: default
         <p>Want help developing an accessible website? <br /> We've got you covered.</p>
       </header>
 
-      {% for tool in site.data.tools %}
+      {% for tool in site.data.tools limit:4 %}
       <article>
         <a href="{{ tool.link }}">{{ tool.name }}</a>
         <p>{{ tool.description }}</p>
@@ -59,6 +58,6 @@ layout: default
     </div>
   </div>
 
-  
+
 
 </div>
