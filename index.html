@@ -99,6 +99,14 @@ layout: default
       <header>
         <h1>Articles</h1>
       </header>
+
+      <div class="articles-content--home">
+        {% for article in site.data.articles limit:4 %}
+        <article>
+          <a class="article-title" href="{{ article.link }}">{{ article.title }}</a>
+        </article>
+        {% endfor %}
+      </div>
     </div>
   </div>
 
