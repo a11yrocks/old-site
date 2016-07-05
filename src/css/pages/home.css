@@ -1,3 +1,6 @@
+.home {
+}
+
 .hero {
   background: var(--colorGrayDark);
   color: #FFF;
@@ -10,5 +13,13 @@
 
   h1 {
     color: inherit;
+  }
+}
+
+.home-guides,
+.home-utils {
+
+  @media (--medium-up) {
+    lost-column: 1/2;
   }
 }
