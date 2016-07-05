@@ -63,3 +63,16 @@
     font-size: var(--textLargest);
   }
 }
+
+.section-header {
+  margin-bottom: 40px;
+
+  &:after {
+    position: relative;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    background: var(--colorPrimary);
+  }
+}
