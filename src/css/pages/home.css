@@ -75,3 +75,14 @@
     top: -3px;
   }
 }
+
+.home-utils {
+  section {
+    lost-utility: clearfix;
+  }
+}
+
+.utils-card {
+  lost-column: 1/2;
+  height: 200px;
+}
