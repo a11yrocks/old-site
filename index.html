@@ -50,7 +50,7 @@ layout: default
       </header>
 
       {% for tool in site.data.tools limit:4 %}
-      <article>
+      <article class="utils-card u-s-card">
         <a href="{{ tool.link }}">{{ tool.name }}</a>
         <p>{{ tool.description }}</p>
       </article>
