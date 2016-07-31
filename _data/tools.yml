@@ -9,3 +9,7 @@
 - name: react-autosuggest
   link: https://github.com/moroshko/react-autosuggest
   description: "WAI-ARIA compliant React autosuggest component"
+
+- name: axe-core
+  link: https://github.com/dequelabs/axe-core
+  description: The Accessibility Engine for automated testing of HTML-based user interfaces.
