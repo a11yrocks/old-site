@@ -13,3 +13,7 @@
 - name: axe-core
   link: https://github.com/dequelabs/axe-core
   description: The Accessibility Engine for automated testing of HTML-based user interfaces.
+
+- name: HTML5 accessibility
+  link: http://html5accessibility.com/
+  description: Get the current accessibility support status of HTML5 features across major browsers.
