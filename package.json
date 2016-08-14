@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/a11yrocks/site#readme",
   "dependencies": {
-    "lost": "^7.0.3",
+    "lost": "^7.0.4",
     "sanitize.css": "^4.1.0"
   },
   "devDependencies": {
