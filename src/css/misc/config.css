@@ -5,6 +5,9 @@
   --regular: 300;
   --bold: 700;
 
+  --font-sans: BlinkMacSystemFont, -apple-system, Roboto, 'Helvetica Neue',Helvetica, sans-serif;
+  --font-serif: 'Libre Baskerville', serif;
+
   --text-small: 14px; /* h6, h5 */
   --text-normal: 16px; /* h4 */
   --text-medium: 24px; /* h3 */

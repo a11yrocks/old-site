@@ -3,8 +3,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-size: 16px;
-  font-family: 'Helvetica', sans-serif;
+
+  font-size: var(--text-normal);
+  font-family: var(--font-sans);
   font-weight: var(--regular);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -20,4 +21,18 @@ p {
 
 .site-content {
   flex: 1;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+
+  &:hover {
+    border: 0;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
 }
