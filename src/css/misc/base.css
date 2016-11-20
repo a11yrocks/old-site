@@ -3,7 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-size: 16px;
+
+  font-size: var(--text-normal);
   font-family: 'Helvetica', sans-serif;
   font-weight: var(--regular);
   line-height: 1.5;
@@ -20,4 +21,14 @@ p {
 
 .site-content {
   flex: 1;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+
+  &:hover {
+    border: 0;
+  }
 }
