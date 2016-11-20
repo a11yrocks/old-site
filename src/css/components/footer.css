@@ -1,23 +1,30 @@
 .footer {
   background-color: var(--color-gray);
+  font-size: var(--text-small);
+  padding: 15px 0;
 
   p {
-    font-size: var(--text-small);
     margin: 0.5em 0;
-  }
-
-  @media (--medium-up) {
-    padding: 10px 0;
   }
 
   &__about {
     & p:first-child {
       font-size: var(--text-normal);
+      margin-top: 0;
+    }
+
+    @media (--medium-up) {
+      lost-column: 5/10;
+      lost-offset: 1/10;
     }
   }
 
   &__social {
     width: 100%;
+
+    @media (--medium-up) {
+      lost-column: 4/10;
+    }
 
     @media (--small) {
       margin-top: 30px;
@@ -25,10 +32,8 @@
     }
 
     &__item {
-      @media (--small) {
-        display: block;
-        margin-bottom: 10px;
-      }
+      display: block;
+      margin-bottom: 10px;
     }
 
   }
