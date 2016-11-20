@@ -4,18 +4,10 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: var(--regular);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
-}
-
-a:not([class]) {
-  text-decoration: none;
-
-  &:hover {
-    border-bottom: 0;
-  }
 }
 
 p {
