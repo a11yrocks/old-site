@@ -4,8 +4,15 @@
   &:first-child {
     margin-top: 60px;
   }
+
+  &__title {
+    &:not(&--list) {
+      text-align: center;
+    }
+  }
+
+  &__header {
+    width: 100%;
+  }
 }
 
-.post__title {
-  border-bottom: none;
-}
