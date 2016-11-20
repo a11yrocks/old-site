@@ -1,8 +1,10 @@
 .post {
-  margin-bottom: 60px;
+  &--list {
+    margin-bottom: 60px;
 
-  &:first-child {
-    margin-top: 60px;
+    &:first-child {
+      margin-top: 60px;
+    }
   }
 
   &__title {

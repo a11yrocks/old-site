@@ -5,7 +5,7 @@ layout: default
 <div class="home">
   <div class="container">
     {% for post in site.posts %}
-      <article class="post">
+      <article class="post post--list">
         <time class="post__date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
         <h2>
           <a class="post__title post__title--list _unborder" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
