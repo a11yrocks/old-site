@@ -16,5 +16,21 @@
   &__header {
     width: 100%;
   }
+
+  &__author {
+    text-align: center;
+
+    & img {
+      border-radius: 50%;
+    }
+  }
 }
 
+.author {
+  text-align: center;
+
+  &__picture {
+    border-radius: 50%;
+    width: 80px;
+  }
+}

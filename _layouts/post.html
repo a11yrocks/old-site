@@ -1,15 +1,30 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 <article class="post">
 
   <div class="container">
 
     <header class="post__header">
+      {% if author %}
+        <div class="author">
+          {% if author.picture %}
+            <img
+              src="{{ author.picture }}"
+              class="author__picture"
+              alt="{{ author.name }}"
+            />
+          {% endif %}
+
+          <p>{{ author.name }}</p>
+        </div>
+      {% endif %}
+
       <h1 class="post__title">{{ page.title }}</h1>
       <time datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: "%b %-d, %Y" }}
-      </time>{% if page.author %} • {{ page.author }} {% endif %}
+      </time>
     </header>
 
     <div class="post__body">

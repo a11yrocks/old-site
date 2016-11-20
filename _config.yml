@@ -22,3 +22,19 @@ markdown: kramdown
 
 compress_html:
   clippings: all
+
+authors:
+  diessica:
+    name: Diéssica Gurskas
+    email: diessicode@gmail.com
+    web: https://diessi.ca
+    twitter: diessicode
+    github: diessica
+    picture: https://avatars3.githubusercontent.com/u/5303585?v=3&s=200
+  lucas:
+    name: Lucas da Silva
+    email: jorgen@company.com
+    web: https://lucas.ninja
+    twitter: _agtlucas
+    github: agtlucas
+    picture: https://avatars0.githubusercontent.com/u/1909761?v=3&s=200
