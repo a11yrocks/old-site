@@ -17,6 +17,7 @@ p {
 
 .container {
   lost-center: 940px;
+  padding: 20px;
 }
 
 .site-content {
@@ -26,13 +27,20 @@ p {
 a {
   color: var(--color-primary);
   text-decoration: none;
-  border-bottom: 1px solid #000;
 
-  &:hover {
-    border: 0;
+  &:not([class*="_unborder"]) {
+    border-bottom: 1px solid #000;
+
+    &:hover {
+      border: 0;
+    }
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
+}
+
+strong, b {
+  font-weight: var(--bold);
 }
