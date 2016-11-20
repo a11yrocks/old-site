@@ -19,6 +19,7 @@ github_username:  jekyll
 exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js']
 
 markdown: kramdown
+permalink: pretty
 
 compress_html:
   clippings: all
