@@ -19,6 +19,7 @@ github_username:  jekyll
 exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js']
 
 markdown: kramdown
+permalink: pretty
 
 compress_html:
   clippings: all
@@ -33,7 +34,7 @@ authors:
     picture: https://avatars3.githubusercontent.com/u/5303585?v=3&s=200
   lucas:
     name: Lucas da Silva
-    email: jorgen@company.com
+    email: lucas@lucas.ninja
     web: https://lucas.ninja
     twitter: _agtlucas
     github: agtlucas
