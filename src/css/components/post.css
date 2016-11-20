@@ -1,4 +1,10 @@
-.post {}
+.post {
+  margin-bottom: 60px;
+
+  &:first-child {
+    margin-top: 60px;
+  }
+}
 
 .post__title {
   border-bottom: none;
