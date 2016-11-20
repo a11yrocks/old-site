@@ -15,6 +15,7 @@
   --text-largest: 42px; /* h1 */
 }
 
+@custom-media --small (width < 640px);
 @custom-media --medium-up (width >= 640px);
 @custom-media --large-up (width >= 830px);
 
