@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.logo {
+  background: #000;
+  color: #FFF;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.slogan {
+  display: block;
+  font-style: italic;
+}
