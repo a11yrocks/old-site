@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   color: var(--colorGrayDark);
   font-size: 16px;
-  font-family: 'Muli', sans-serif;
+  font-family: sans-serif;
   font-weight: var(--regular);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -30,8 +30,6 @@ body {
 }
 
 a:not([class]) {
-  color: var(--colorPrimary);
-  border-bottom: 1px solid var(--colorPrimary);
   text-decoration: none;
 
   &:hover {
