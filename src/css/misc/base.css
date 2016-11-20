@@ -3,30 +3,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  color: var(--colorGrayDark);
   font-size: 16px;
   font-family: sans-serif;
   font-weight: var(--regular);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
-
-  /*@media (--medium-up) {
-    &:after {
-      content: "--medium-up";
-      position: absolute;
-      top: 0;
-      background: #fff;
-    }
-  }
-
-  @media (--large-up) {
-    &:after {
-      content: "--large-up";
-      position: absolute;
-      top: 0;
-      background: #fff;
-    }
-  }*/
 }
 
 a:not([class]) {
@@ -39,21 +20,6 @@ a:not([class]) {
 
 p {
   margin: 1.5em 0;
-}
-
-h1, .h1 {
-  font-size: 30px;
-  color: var(--colorGrayDark);
-}
-
-h2, .h2 {}
-
-strong {
-  font-weight: var(--bold);
-}
-
-ul {
-  list-style: none;
 }
 
 .container {
