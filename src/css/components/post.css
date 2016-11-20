@@ -33,4 +33,11 @@
     border-radius: 50%;
     width: 80px;
   }
+
+  &__name {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    font-size: var(--text-small);
+  }
 }
