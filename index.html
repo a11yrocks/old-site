@@ -10,7 +10,10 @@ layout: default
         <h2>
           <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {{ post.excerpt }}
+        {{ post.excerpt | strip_html | truncate: 300 }}
+        {% if post.excerpt | size > 300 %}
+          <strong>Read more →</strong>
+        {% endif %}
       </article>
     {% endfor %}
   </div>
