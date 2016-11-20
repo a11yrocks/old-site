@@ -5,12 +5,15 @@ layout: default
 <div class="home">
   <div class="container">
     {% for post in site.posts %}
-      <article>
-        <time class="" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <article class="post">
+        <time class="post__date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
         <h2>
-          <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {{ post.excerpt }}
+        {{ post.excerpt | strip_html | truncate: 300 }}
+        {% if post.excerpt | size > 300 %}
+          <strong>Read more →</strong>
+        {% endif %}
       </article>
     {% endfor %}
   </div>
