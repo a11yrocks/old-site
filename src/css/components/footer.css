@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--color-gray);
+
+  p {
+    font-size: var(--text-small);
+    margin: 0.5em 0;
+  }
+
+  @media (--medium-up) {
+    padding: 10px 0;
+  }
+
+  &__about {
+    & p:first-child {
+      font-size: var(--text-normal);
+    }
+  }
+
+  &__social {
+    width: 100%;
+
+    @media (--small) {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    &__item {
+      @media (--small) {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+}
