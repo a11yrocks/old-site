@@ -3,115 +3,18 @@ layout: default
 ---
 
 <div class="home">
-
-  <div class="hero">
-    <h1>Web must be a hospitable <br /> place for <span>everyone.</span></h1>
-    <p>Build for diversity.</p>
-  </div>
-
-  <!-- {% for post in site.posts %}
   <div class="container">
-    <article class="article" id="post-{{ post.title | slugify }}">
-      <header class="article-header">
-        <p>Added in
-          <time class="article-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ post.date | date: "%b %-d, %Y" }}
-          </time>
-        </p>
-
-        <h1>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
-      </header>
-
-      {{ post.excerpt }}
-    </article>
-  </div>
-  {% endfor %} -->
-
-  <div class="container home-section">
-    <div class="home-guides">
-      <header class="section-header">
-        <h1>Guides</h1>
-        <p>Want to know more about Web Accessibility? <br /> Start learning from here!</p>
-      </header>
-
-      <ul>
-        {% for guide in site.data.guides limit:4 %}
-        <li><a href="{{ guide.link }}">{{ guide.title }}</a> - {{ guide.author }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="home-utils">
-      <header class="section-header">
-        <h1>Utils</h1>
-        <p>Want help developing an accessible website? <br /> We've got you covered.</p>
-      </header>
-
-      <section>
-        {% for tool in site.data.tools limit:4 %}
-        <article class="utils-card u-s-card">
-          <a href="{{ tool.link }}">{{ tool.name }}</a>
-          <p>{{ tool.description }}</p>
-        </article>
-        {% endfor %}
-      </section>
-    </div>
-  </div>
-
-  <div class="banner-a11y">
-    <div class="container">
-      <div class="description">
-        <h1>Make a11y happen!</h1>
-        <p>Spread the word to the other people <br /> or submit resources. We count on you.</p>
-      </div>
-
-      <div class="action">
-        <a class="button button--solid" href="#">Submit a Resource</a>
-        <a class="button" href="#">Spread the word</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container home-section">
-    <div>
-      <header class="section-header">
-        <h1>Media</h1>
-      </header>
-
-      <article class="media-card">
-        <a href="#" class="media-card__title">Meet ARIA - a11yconf 2014</a>
-        <p>Talk explaining WAI-ARIA attributes, in 2014 during a11yConf in San Francisco.</p>
+    {% for post in site.posts %}
+      <article class="post post--list">
+        <time class="post__date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <h2>
+          <a class="post__title post__title--list _unborder" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        {{ post.excerpt | strip_html | truncate: 300 }}
+        {% if post.excerpt | size > 300 %}
+          <strong>Read more →</strong>
+        {% endif %}
       </article>
-
-      <article class="media-card">
-        <a href="#" class="media-card__title">#AccessibilityMatters - W3Conf 2012</a>
-      </article>
-
-      <article class="media-card">
-        <a href="#" class="media-card__title">Developing Accessible Single-page Applications (ng-conf 2012)</a>
-        <p>John Doe gave a talk in ng-conf 2012 about accessible single-page applications. Worth-seeing.</p>
-      </article>
-
-      <article class="media-card">
-        <a href="#" class="media-card__title">Web Accessibility (Stanford University)</a>
-      </article>
-    </div>
-
-    <div>
-      <header class="section-header">
-        <h1>Articles</h1>
-      </header>
-
-      <div class="articles-content--home">
-        {% for article in site.data.articles limit:4 %}
-        <article>
-          <a class="article-title" href="{{ article.link }}">{{ article.title }}</a>
-        </article>
-        {% endfor %}
-      </div>
-    </div>
+    {% endfor %}
   </div>
-
 </div>

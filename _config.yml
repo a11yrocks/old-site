@@ -9,7 +9,7 @@
 title: A11Y Rocks
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Web must be a hospitable place for everyone
+  Thoughts on Web Accessibility
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://a11y.rocks" # the base hostname & protocol for your site
 twitter_username: jekyllrb
@@ -19,6 +19,23 @@ github_username:  jekyll
 exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js']
 
 markdown: kramdown
+permalink: pretty
 
 compress_html:
   clippings: all
+
+authors:
+  diessica:
+    name: Diéssica Gurskas
+    email: diessicode@gmail.com
+    web: https://diessi.ca
+    twitter: diessicode
+    github: diessica
+    picture: https://avatars3.githubusercontent.com/u/5303585?v=3&s=200
+  lucas:
+    name: Lucas da Silva
+    email: lucas@lucas.ninja
+    web: https://lucas.ninja
+    twitter: _agtlucas
+    github: agtlucas
+    picture: https://avatars0.githubusercontent.com/u/1909761?v=3&s=200

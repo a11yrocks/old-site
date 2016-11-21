@@ -1,20 +1,22 @@
 :root {
-  --colorGray: #777;
-  --colorGrayLight: #f9f9f9;
-  --colorGrayDark: #333;
-  --colorPrimary: #53a3ce;
+  --color-gray: #f7f7f7;
+  --color-primary: #000;
 
   --regular: 300;
   --bold: 700;
 
-  --textSmall: 0.875rem;
-  --textNormal: 1rem;
-  --textHighlight: 1.125rem;
-  --textLarge: 1.65rem;
-  --textLargest: 2.20rem;
+  --font-sans: BlinkMacSystemFont, -apple-system, Roboto, 'Helvetica Neue',Helvetica, sans-serif;
+  --font-serif: 'Libre Baskerville', serif;
+
+  --text-small: 14px; /* h6, h5 */
+  --text-normal: 16px; /* h4 */
+  --text-medium: 24px; /* h3 */
+  --text-large: 28px; /* h2 */
+  --text-largest: 42px; /* h1 */
 }
 
-@custom-media --medium-up (width >= 640px);
+@custom-media --small (width < 620px);
+@custom-media --medium-up (width >= 620px);
 @custom-media --large-up (width >= 830px);
 
 @lost flexbox flex;

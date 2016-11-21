@@ -1,0 +1,13 @@
+.icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+
+  &--github {
+    svg path {
+      fill: #000;
+    }
+  }
+
+  &--feed {}
+}

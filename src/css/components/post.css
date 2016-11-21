@@ -1,0 +1,35 @@
+.post {
+  &--list {
+    margin-bottom: 60px;
+
+    &:first-child {
+      margin-top: 60px;
+    }
+  }
+
+  &__title {
+    &:not(&--list) {
+      text-align: center;
+    }
+  }
+
+  &__header {
+    width: 100%;
+  }
+}
+
+.author {
+  text-align: center;
+
+  &__picture {
+    border-radius: 50%;
+    width: 65px;
+  }
+
+  &__name {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    font-size: var(--text-small);
+  }
+}

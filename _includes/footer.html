@@ -1,16 +1,21 @@
-<footer class="section section--highlight footer">
+<footer class="footer">
   <div class="container">
     <section class="footer__about">
-      <h2 class="h1">About the project</h2>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere error amet in quaerat rerum minus eligendi corporis tenetur sunt a iste saepe similique dicta tempora hic earum possimus doloremque, eaque!</p>
+      <p>Let's make <strong>Web Accessibility</strong> trivial!</p>
+      <p>This is a journal where you can share your thoughts on Web Accessibility.</p>
+      <p>It follows an open publishing model, so anyone can <a href="#"> contribute on GitHub</a>.</p>
     </section>
 
-    <div class="footer__contribute">
-      <p>Notice an issue or want to submit a resource? Please <a href="#">contribute</a>.</p>
-      <a class="button button--solid" href="#">Join us on GitHub</a>
+    <div class="footer__social">
+      <a href="#" class="footer__social__item _unborder">
+        {% include icon-github.html %}
+        <b>Contribute on GitHub</b>
+      </a>
 
-      <p>&copy; 2016 a11y.rocks</p>
+      <a href="#" class="footer__social__item _unborder">
+        {% include icon-feed.html %}
+        <b>Subscribe to Feed</b>
+      </a>
     </div>
   </div>
 </footer>
