@@ -1,6 +1,7 @@
 .post {
   &--list {
     margin-bottom: 60px;
+    padding: 20px;
 
     &:first-child {
       margin-top: 60px;

@@ -12,7 +12,7 @@ layout: default
         </h2>
         {{ post.excerpt | strip_html | truncate: 300 }}
         {% if post.excerpt | size > 300 %}
-          <strong>Read more →</strong>
+          <a class="_unborder" href="{{ post.url | prepend: site.baseurl }}"><strong>Read more →</strong></a>
         {% endif %}
       </article>
     {% endfor %}
