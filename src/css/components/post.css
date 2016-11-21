@@ -6,6 +6,15 @@
     &:first-child {
       margin-top: 60px;
     }
+
+    &:hover {
+      background-color: var(--color-gray);
+    }
+  }
+
+  &__date {
+    font-size: 14px;
+    color: var(--color-gray-dark);
   }
 
   &__title {
