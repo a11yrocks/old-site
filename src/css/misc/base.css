@@ -82,3 +82,9 @@ blockquote {
     margin: 0;
   }
 }
+
+:link:focus,
+:visited:focus {
+  outline: thin dotted var(--color-primary);
+  // box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+}
