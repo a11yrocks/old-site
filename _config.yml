@@ -13,7 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://a11y.rocks" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  a11yrocks
+disqus_username: a11y
 
 # Build settings
 exclude: ['node_modules', 'package.json', 'gulpfile.js', 'src', '.DS_Store', '.sass-cache', 'README.md', 'npm-debug.log', 'LICENSE', 'deploy.js']
