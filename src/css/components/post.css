@@ -18,6 +18,8 @@
   }
 
   &__title {
+    margin-bottom: 10px;
+
     &:not(&--list) {
       text-align: center;
     }
@@ -26,21 +28,39 @@
   &__header {
     width: 100%;
   }
+
+  &__info {
+    width: 300px;
+    margin: auto;
+    font-size: var(--text-small);
+    display: flex;
+    color: var(--color-gray-dark);
+  }
+
+  &__info * {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .author {
-  text-align: center;
-
-  &__picture {
-    border-radius: 50%;
-    width: 65px;
-    margin: auto;
+  &::after {
+    content: "";
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background: var(--color-primary);
+    border-radius: 50%; 
   }
 
   &__name {
-    display: block;
-    margin-top: 10px;
-    width: 100%;
-    font-size: var(--text-small);
+    color: var(--color-primary);
+  }
+
+  &__picture {
+    border-radius: 50%;
+    width: 35px;
+    margin-right: 10px;
   }
 }
