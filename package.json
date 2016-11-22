@@ -4,7 +4,7 @@
   "description": "A11Y Rocks",
   "main": "deploy.js",
   "scripts": {
-    "start": "npm-run-all --parallel jekyll gulp browsersync",
+    "start": "npm-run-all --parallel gulp jekyll browsersync",
     "gulp": "gulp",
     "jekyll": "jekyll server --drafts",
     "build": "jekyll build",
