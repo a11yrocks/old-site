@@ -20,19 +20,6 @@ body {
   flex: 1;
 }
 
-a {
-  color: var(--color-primary);
-  text-decoration: none;
-
-  &:not([class*="_unborder"]) {
-    border-bottom: 1px solid #000;
-
-    &:hover {
-      border: 0;
-    }
-  }
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   margin-top: 40px;
@@ -69,10 +56,6 @@ img {
   max-width: 100%;
 }
 
-ul, ol {
-  padding: 20px;
-}
-
 blockquote {
   border-left: 2px solid var(--color-primary);
   margin: 10px 0;
@@ -86,8 +69,28 @@ blockquote {
   }
 }
 
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &:not([class*="_unborder"]) {
+    border-bottom: 1px solid #000;
+
+    &:hover {
+      border: 0;
+    }
+  }
+}
+
 :link:focus,
 :visited:focus {
   outline: thin dotted var(--color-primary);
-  // box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+ul, ol {
+  padding: 20px;
+}
+
+li {
+  margin-bottom: 5px;
 }
