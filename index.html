@@ -29,7 +29,7 @@ layout: default
 
         {% if post.excerpt | size > 300 %}
           <a
-            class="_unborder"
+            class="_unborder js-read-more"
             href="{{ post.url | prepend: site.baseurl }}"
           >
             <strong>Read more →</strong>
@@ -40,3 +40,20 @@ layout: default
 
   </div>
 </div>
+
+<script>
+  (function (d) {
+    var buttons = [].slice.call(d.querySelectorAll('.js-read-more'));
+
+    function addFocusListener (button) {
+      function toggleFocused () {
+        button.parentNode.classList.toggle('post--list--focused');
+      }
+
+      button.addEventListener('focus', toggleFocused);
+      button.addEventListener('blur', toggleFocused);
+    }
+
+    buttons.forEach(addFocusListener);
+  })(document);
+</script>

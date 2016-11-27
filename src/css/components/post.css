@@ -15,7 +15,8 @@
       }
     }
 
-    &:hover {
+    &:hover,
+    &--focused {
       background-color: var(--color-gray);
     }
 
