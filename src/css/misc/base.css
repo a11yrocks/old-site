@@ -94,3 +94,10 @@ ul, ol {
 li {
   margin-bottom: 5px;
 }
+
+.back-button {
+  padding: 15px;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+}
