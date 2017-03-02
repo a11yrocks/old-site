@@ -23,7 +23,7 @@
   "homepage": "https://github.com/a11yrocks/site#readme",
   "dependencies": {
     "lost": "^8.0.0",
-    "sanitize.css": "^4.1.0"
+    "sanitize.css": "^5.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
