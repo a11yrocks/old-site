@@ -4,67 +4,11 @@
     <title>A11Y Rocks</title>
     <description>Thoughts on Web Accessibility
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Nov 2016 17:09:41 -0200</pubDate>
-    <lastBuildDate>Sun, 27 Nov 2016 17:09:41 -0200</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
-    
-      <item>
-        <title>DRAFT!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Computer Science students listen to guest speaker Douglas Crockford, Sr. JavaScript Architect for Yahoo!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Testing a bullet point&lt;/strong&gt;: Lorem ipsum dolor sit amet.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Another bullet point&lt;/strong&gt;: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quam ipsam laudantium odit. Blanditiis nemo, unde cumque atque, nostrum cum accusamus ducimus adipisci, enim, veniam nisi nulla debitis eveniet quae culpa. Quae harum, nam tenetur inventore, mollitia error voluptatum asperiores beatae dolorem. Eveniet hic repellendus tempora, maiores repudiandae ex neque aspernatur sint quis inventore iusto voluptatem dolore. Laudantium ad soluta et aliquid eos at, iure autem, quos aut magnam, dolorem facere iusto pariatur. Quae sequi temporibus repellat aspernatur animi, praesentium!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cool&lt;/strong&gt;: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quam quas cupiditate maxime, sunt omnis. Deserunt natus quia porro delectus hic harum culpa cum animi eos, velit tempora, magni ut.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;testing-content&quot;&gt;Testing Content&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nisi impedit et, officia omnis in eveniet suscipit. Debitis modi iste minima corporis eveniet perspiciatis in voluptates mollitia adipisci eligendi? Similique laboriosam, neque optio.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://alistapart.com/d/signupforms/13-2_jumpcut_home.jpg&quot; alt=&quot;Form&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Temporibus magni iusto laudantium dolore beatae provident, qui mollitia ex repellendus architecto aut veritatis autem culpa blanditiis vitae iure sint, vero in.&lt;/p&gt;
-
-&lt;h3 id=&quot;but-what-about&quot;&gt;But What About..&lt;/h3&gt;
-&lt;p&gt;Sed quod, esse laboriosam cumque earum eius, nulla molestiae suscipit dolore autem magni maxime officiis veritatis hic perferendis nobis tempore reprehenderit labore at aspernatur et. Perspiciatis voluptates inventore aperiam, vel repellat perferendis sunt voluptas labore.&lt;/p&gt;
-
-&lt;h2 id=&quot;testing-content-1&quot;&gt;Testing Content&lt;/h2&gt;
-&lt;h3 id=&quot;h3&quot;&gt;h3&lt;/h3&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo repellat laborum veritatis illo iusto aspernatur nisi molestiae cumque saepe.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://img.youtube.com/vi/v2ifWcnQs6M/0.jpg&quot; alt=&quot;Douglas&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;h4&quot;&gt;h4&lt;/h4&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo repellat laborum veritatis illo iusto aspernatur nisi molestiae cumque saepe.&lt;/p&gt;
-
-&lt;h5 id=&quot;h5&quot;&gt;h5&lt;/h5&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo repellat laborum veritatis illo iusto aspernatur nisi molestiae cumque saepe.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://dwglogo.com/wp-content/uploads/2015/12/Temple-Airbnb-Logo.png&quot; alt=&quot;airbnb&quot; /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;h6&quot;&gt;h6&lt;/h6&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo repellat laborum veritatis illo iusto aspernatur nisi molestiae cumque saepe.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 25 May 2016 19:51:10 -0300</pubDate>
-        <link>http://localhost:4000/post/2016/05/25/draft/</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2016/05/25/draft/</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
+    <link>https://a11y.rocks/</link>
+    <atom:link href="https://a11y.rocks/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 19 Jan 2018 22:09:02 +0100</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 22:09:02 +0100</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -113,9 +57,9 @@
 &lt;h6 id=&quot;h6&quot;&gt;h6&lt;/h6&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo repellat laborum veritatis illo iusto aspernatur nisi molestiae cumque saepe.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 24 May 2016 19:51:10 -0300</pubDate>
-        <link>http://localhost:4000/post/2016/05/24/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2016/05/24/welcome-to-jekyll/</guid>
+        <pubDate>Wed, 25 May 2016 00:51:10 +0200</pubDate>
+        <link>https://a11y.rocks/post/2016/05/25/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://a11y.rocks/post/2016/05/25/welcome-to-jekyll/</guid>
         
         
         <category>post</category>
@@ -169,9 +113,9 @@
 &lt;h6 id=&quot;h6&quot;&gt;h6&lt;/h6&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo repellat laborum veritatis illo iusto aspernatur nisi molestiae cumque saepe.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 24 May 2016 19:51:10 -0300</pubDate>
-        <link>http://localhost:4000/post/2016/05/24/welcome-to-jekyll-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2016/05/24/welcome-to-jekyll-2/</guid>
+        <pubDate>Wed, 25 May 2016 00:51:10 +0200</pubDate>
+        <link>https://a11y.rocks/post/2016/05/25/welcome-to-jekyll-2/</link>
+        <guid isPermaLink="true">https://a11y.rocks/post/2016/05/25/welcome-to-jekyll-2/</guid>
         
         
         <category>post</category>
