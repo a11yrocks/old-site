@@ -9,7 +9,7 @@
     "jekyll": "jekyll server --drafts",
     "build": "jekyll build",
     "browsersync": "browser-sync start --proxy localhost:4000 --files='_site'",
-    "deploy": "npm rum build && node deploy"
+    "deploy": "npm run build && node deploy"
   },
   "repository": {
     "type": "git",
